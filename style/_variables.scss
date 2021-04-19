@@ -2,14 +2,20 @@
 
 // ### Primary
 
+// main background
 $VeryDarkBlueMainBackground: hsl(233, 47%, 7%);
+// card background
 $DarkDesaturateBlue: hsl(244, 38%, 16%);
+// accent
 $SoftViolet: hsl(277, 64%, 61%);
 
 // ### Neutral
 
+// main headding
 $WhiteMainHeading: hsl(0, 0%, 100%);
+// main paragraph
 $SlightlyTransparentMainParagraph: hsla(0, 0%, 100%, 0.75);
+// main stat headings
 $SlightlyTransparentStatHeadings: hsla(0, 0%, 100%, 0.6);
 
 // ## Typography
@@ -20,9 +26,9 @@ $SlightlyTransparentStatHeadings: hsla(0, 0%, 100%, 0.6);
 
 // ### Font
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-// font-family: 'Inter', sans-serif;
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+//
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
-// font-family: 'Inter', sans-serif;
 // font-family: 'Lexend Deca', sans-serif;
+// font-family: 'Inter', sans-serif;

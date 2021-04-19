@@ -1,1 +1,61 @@
-@import url(_variables.scss);
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $VeryDarkBlueMainBackground;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  width: 20.31rem;
+  margin: 5.375rem auto 0;
+}
+
+.card {
+  background: $DarkDesaturateBlue;
+  text-align: center;
+  padding: 2.5rem 1.5rem 1rem 1.5rem;
+  border-radius: 0 0 15px 15px;
+  > p {
+    color: $SlightlyTransparentMainParagraph;
+    line-height: 1.5rem;
+    margin-bottom: 2.81rem;
+  }
+}
+
+h1,
+h3 {
+  color: $WhiteMainHeading;
+  em {
+    color: $SoftViolet;
+    font-style: normal;
+  }
+}
+h1 {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+img {
+  width: 20.31rem;
+  height: 14.625rem;
+  border-radius: 15px 15px 0 0;
+}
+
+.informations {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    color: $SlightlyTransparentStatHeadings;
+  }
+}

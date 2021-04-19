@@ -1,2 +1,68 @@
-@import url(_variables.scss);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #090b1a;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  width: 20.31rem;
+  margin: 5.375rem auto 0;
+}
+
+.card {
+  background: #1b1938;
+  text-align: center;
+  padding: 2.5rem 1.5rem 1rem 1.5rem;
+  border-radius: 0 0 15px 15px;
+}
+
+.card > p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5rem;
+  margin-bottom: 2.81rem;
+}
+
+h1,
+h3 {
+  color: white;
+}
+
+h1 em,
+h3 em {
+  color: #aa5cdb;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1.25rem;
+}
+
+img {
+  width: 20.31rem;
+  height: 14.625rem;
+  border-radius: 15px 15px 0 0;
+}
+
+.informations {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.informations h3 {
+  font-size: 2rem;
+}
+
+.informations p {
+  color: rgba(255, 255, 255, 0.6);
+}
 /*# sourceMappingURL=mobilestyle.css.map */
