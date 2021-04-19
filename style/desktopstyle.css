@@ -1,2 +1,61 @@
 @import url(_variables.scss);
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 445px;
+  max-width: 1100px;
+}
+
+.image {
+  height: 100%;
+  width: 45%;
+  background: url("../style/images/image-header-desktop.jpg");
+  background: cover;
+  border-radius: 0 15px 15px 0;
+}
+
+.image::after {
+  border-radius: 0 15px 15px 0;
+}
+
+.card {
+  width: 50%;
+  border-radius: 15px 0 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: left;
+  padding: 7%;
+}
+
+.card P {
+  width: 85%;
+  font-size: 0.8rem;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+}
+
+.block h3 {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
 /*# sourceMappingURL=desktopstyle.css.map */
